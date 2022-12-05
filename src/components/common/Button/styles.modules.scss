@@ -1,0 +1,97 @@
+.button {
+
+  &.MuiButton-root {
+    min-width: 8px;
+    text-transform: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+
+    .MuiButton-label {
+      line-height: 16px;
+    }
+
+    .icon {
+      margin: -4px -8px;
+    }
+  }
+
+  &.MuiButton-contained {
+    color: var(--Spac3-Color6);
+    background-color: var(--Spac3-Color3);
+
+    &:hover {
+      background-color: #7fa17d;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.Mui-focusVisible {
+      background-color: #7fa17d;
+    }
+
+    &:active {
+      background-color: #4b6747;
+    }
+
+    &.Mui-disabled {
+      color: #fafafa;
+      background-color: #e2e2e2;
+    }
+  }
+
+  &.MuiButton-outlined {
+    padding: 7px 11px;
+    border: 1px solid #e2e2e2;
+    color: #454545;
+    background-color: transparent;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.Mui-focusVisible {
+      background-color:#f5f5f5;
+      border-color: #bababa;
+    }
+
+    &:active {
+      background-color: #e2e2e2;
+      border-color: #bababa;
+    }
+
+    &.Mui-disabled {
+      color: #cecece;
+      border-color: #cecece;
+    }
+  }
+
+  &.MuiButton-text {
+    color: #454545;
+
+    &:hover {
+      background-color: #f5f5f5;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.Mui-focusVisible {
+      background-color:#f5f5f5;
+    }
+
+    &:active {
+      background-color: #e2e2e2;
+    }
+
+    &.Mui-disabled {
+      color: #cecece;
+    }
+  }
+}

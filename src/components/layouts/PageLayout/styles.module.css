@@ -1,0 +1,29 @@
+.pageLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.header {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.footer {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #eaeaea;
+}
